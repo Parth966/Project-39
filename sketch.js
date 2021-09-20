@@ -138,7 +138,7 @@ function draw() {
   fill("black")
   text("Score: "+ score, camera.position.x,50);
   
-  if(score >= 10){
+  if(score >= 5){
     kangaroo.visible = false;
     textSize(30);
     stroke(3);
